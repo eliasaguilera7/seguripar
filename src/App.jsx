@@ -40,7 +40,7 @@ const App = () => {
     
     const whatsappMessage = `Hola, contacto desde la web Seguripar.%0A%0A*Nombre:* ${nombre}%0A*Empresa:* ${empresa}%0A*Email:* ${email}%0A*Servicio de Interés:* ${servicio}%0A*Mensaje:* ${mensaje}`;
     
-    const whatsappUrl = `https://wa.me/595993388375?text=${whatsappMessage}`;
+    const whatsappUrl = `https://wa.me/595976217807?text=${whatsappMessage}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -68,7 +68,7 @@ const App = () => {
             <img 
               src="images/pngsegur.png" 
               alt="SeguriPar Logo" 
-              className="h-25 w-auto mr-2 transition-transform group-hover:scale-105" 
+              className="h-16 w-auto mr-4 transition-transform group-hover:scale-105" 
             />
            
           </div>
@@ -85,7 +85,7 @@ const App = () => {
               </a>
             ))}
             <a 
-              href="https://wa.me/595993388375" 
+              href="https://wa.me/595976217807" 
               className="bg-red-700 text-white px-6 py-2.5 rounded-sm text-sm font-bold uppercase tracking-wider hover:bg-white hover:text-red-700 transition-all shadow-md active:scale-95"
             >
               Contacto Directo
@@ -115,10 +115,10 @@ const App = () => {
                 </a>
               ))}
               <a 
-                href="https://wa.me/595993388375"
+                href="https://wa.me/595976217807"
                 className="block w-full text-center bg-red-700 text-white py-4 font-bold uppercase"
               >
-                +595 993 388 375
+                +595 976 217 807
               </a>
             </div>
           </div>
@@ -147,7 +147,7 @@ const App = () => {
           <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/40 to-transparent"></div>
         </div>
 
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pt-36 md:pt-0">
           <div className="max-w-3xl space-y-8 animate-in slide-in-from-left duration-700 ml-4 lg:ml-8">
             <div className="inline-flex items-center space-x-2 bg-red-700/20 backdrop-blur-md border border-red-700/30 text-red-400 px-4 py-1.5 rounded-full text-sm font-bold tracking-wide uppercase">
               <span className="relative flex h-2 w-2">
@@ -170,7 +170,7 @@ const App = () => {
             
             <div className="flex flex-col sm:flex-row gap-5 pt-6">
               <a 
-                href="https://wa.me/595993388375?text=Hola,%20quisiera%20solicitar%20un%20diagnóstico%20de%20seguridad."
+                href="https://wa.me/595976217807?text=Hola,%20quisiera%20solicitar%20un%20diagnóstico%20de%20seguridad."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 bg-red-700 text-white px-10 py-5 rounded-sm font-bold hover:bg-white hover:text-red-700 transition-all duration-300 shadow-2xl group text-lg tracking-wider"
@@ -184,7 +184,7 @@ const App = () => {
                 </div>
                 <div>
                   <p className="text-xs text-slate-300 font-bold uppercase tracking-widest">Asistencia 24/7</p>
-                  <p className="font-bold text-white text-lg tracking-tight">+595 993 388 375</p>
+                  <p className="font-bold text-white text-lg tracking-tight">+595 976 217 807</p>
                 </div>
               </div>
             </div>
@@ -390,7 +390,7 @@ const App = () => {
                   </div>
                   <div>
                     <h4 className="font-bold text-slate-900 uppercase text-xs tracking-widest mb-1">Teléfono Directo</h4>
-                    <p className="text-xl font-bold tracking-tight">+595 993 388 375</p>
+                    <p className="text-xl font-bold tracking-tight">+595 976 217 807</p>
                     <p className="text-slate-500 text-sm">Atención inmediata 24/7</p>
                   </div>
                 </div>
@@ -402,16 +402,6 @@ const App = () => {
                   <div>
                     <h4 className="font-bold text-slate-900 uppercase text-xs tracking-widest mb-1">Email Corporativo</h4>
                     <p className="text-xl font-bold tracking-tight">seguripar@seguripar.com</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-6">
-                  <div className="bg-slate-100 p-4 rounded-sm text-red-700">
-                    <User size={24} />
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-slate-900 uppercase text-xs tracking-widest mb-1">Director Comercial</h4>
-                    <p className="text-xl font-bold italic">Geronimo Gonzalez</p>
                   </div>
                 </div>
               </div>
@@ -516,7 +506,7 @@ const App = () => {
       
       {/* Floating WhatsApp Button */}
       <a 
-        href="https://wa.me/595993388375" 
+        href="https://wa.me/595976217807" 
         target="_blank" 
         rel="noopener noreferrer"
         className="fixed bottom-8 right-8 bg-green-600 text-white p-4 rounded-full shadow-2xl hover:bg-green-700 transition-all hover:scale-110 z-50 flex items-center justify-center group"
